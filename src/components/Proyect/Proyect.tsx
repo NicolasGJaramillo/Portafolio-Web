@@ -4,6 +4,7 @@ import ArrowIcon from "../../assets/iconsIndex/arrow-right-long-solid-full black
 import ArrowLeftIcon from "../../assets/iconsIndex/arrow-left-solid-full.svg"
 import WhatsAppIcon from "../../assets/iconsIndex/whatsapp-brands-solid-full.svg"
 import { Link } from "react-router-dom"
+
 export default function Proyect(){
     return(
         <section  className="py-10">
