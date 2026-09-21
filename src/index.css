@@ -1,0 +1,137 @@
+/* Importa las fuentes utilizadas en el diseño */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+/* Importa Tailwind CSS */
+@import "tailwindcss";
+
+body{
+   background: var(--color-background);
+   font-family: var(--font-heading);
+}
+html{
+   scroll-behavior: smooth;
+}
+@theme {
+
+    /* ========================================
+       COLORES
+       ======================================== */
+
+    /* Fondo principal de toda la página - negro cálido */
+    --color-background: #171716;
+
+    /* Superficie secundaria - secciones o contenedores */
+    --color-surface: #211F1D;
+
+    /* Fondo de cards */
+    --color-card: #292724;
+
+    /* Bordes sutiles */
+    --color-border: #3A3632;
+
+
+    /* Color principal / acento - tomate */
+    --color-primary: #D97757;
+
+    /* Color tomate para hover */
+    --color-primary-hover: #B85C3C;
+
+    /* Crema - color secundario para detalles */
+    --color-cream: #E8DED2;
+
+
+    /* Texto principal - blanco cálido */
+    --color-foreground: #F5F1EB;
+
+    /* Texto secundario */
+    --color-muted: #B8B0A7;
+
+    /* Texto terciario / menos importante */
+    --color-subtle: #847D75;
+
+
+    /* ========================================
+       TIPOGRAFÍA
+       ======================================== */
+
+    /* Fuente para títulos y elementos con personalidad */
+    --font-heading: "Space Grotesk", sans-serif;
+
+    /* Fuente para textos y contenido general */
+    --font-body: "Inter", sans-serif;
+
+
+    /* ========================================
+       TAMAÑOS DE TEXTO
+       ======================================== */
+
+    /* H1 - título principal */
+    --text-h1: 3rem;
+
+    /* H2 - títulos de secciones */
+    --text-h2: 2.25rem;
+
+    /* H3 - subtítulos */
+    --text-h3: 1.5rem;
+
+    /* H4 - títulos pequeños */
+    --text-h4: 1.25rem;
+
+    /* Texto de cuerpo grande */
+    --text-body-lg: 1.125rem;
+
+    /* Texto de cuerpo normal */
+    --text-body: 1rem;
+
+    /* Texto pequeño */
+    --text-small: 0.875rem;
+
+    /* Texto muy pequeño / caption */
+    --text-caption: 0.75rem;
+
+
+    /* ========================================
+       ESPACIADO
+       ======================================== */
+
+    /* Base del sistema de spacing: 1 unidad = 4px */
+    --spacing: 0.25rem;
+    
+
+
+    /* ========================================
+       BORDER RADIUS
+       ======================================== */
+
+    /* Bordes redondeados para botones */
+    --radius-button: 0.50rem;
+
+    /* Bordes redondeados para cards */
+    --radius-card: 1.25rem;
+
+    /* Bordes redondeados para imágenes */
+    --radius-image: 1.25rem;
+
+    /* Bordes redondeados para inputs */
+    --radius-input: 0.75rem;
+
+    /* Bordes redondeados para secciones grandes */
+    --radius-section: 1.5rem;
+
+
+    /* ========================================
+       PESOS DE FUENTE
+       ======================================== */
+
+    /* Texto normal */
+    --font-weight-regular: 400;
+
+    /* Texto ligeramente destacado */
+    --font-weight-medium: 500;
+
+    /* Títulos y elementos destacados */
+    --font-weight-semibold: 600;
+
+    /* Texto en negrita */
+    --font-weight-bold: 700;
+}
