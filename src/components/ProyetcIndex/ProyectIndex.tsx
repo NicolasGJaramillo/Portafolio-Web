@@ -2,6 +2,7 @@ import BarIcon from "../../assets/iconsIndex/bar-solid-full.svg"
 import CardProyect from "../CardProyect/CardProyect"
 import {DataProyects} from "../../data/dataProyects/dataProyects"
 
+
 export default function ProyectIndex(){
     return(
         <section className="pt-23 scroll-mt-[-60px]" id="proyect">
@@ -11,7 +12,7 @@ export default function ProyectIndex(){
                     {DataProyects.map((proyect)=>{
                         return(
                             <CardProyect
-                            
+                            slug={proyect.slug}
                             image={proyect.image}
                             title={proyect.title}
                             shortDescription={proyect.shortDescription}

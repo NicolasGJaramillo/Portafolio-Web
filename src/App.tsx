@@ -6,7 +6,7 @@ export default function App(){
     <>
       <Routes>
         <Route  path="/" element={<IndexPage></IndexPage>}></Route>
-        <Route  path="/ProyectPage" element={<ProyectPage></ProyectPage>}></Route>
+        <Route  path="/ProyectPage/:slug" element={<ProyectPage></ProyectPage>}></Route>
       </Routes>
     </>
   )

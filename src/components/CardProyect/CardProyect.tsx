@@ -7,17 +7,17 @@ type dataProyetcProps={
     title:string,
     shortDescription:string,
     technologies:string,
+    slug:string,
 }
 /*
 
 video:string,
 largeDescription:string,
 linkRepo:string,
-slug:string,
 */
-export default function CardProyect({ image, title, shortDescription, technologies}:dataProyetcProps){
+export default function CardProyect({slug, image, title, shortDescription, technologies}:dataProyetcProps){
     return(
-        <Link to={"/ProyectPage" }>
+        <Link to={`/ProyectPage/${slug}`}>
         <article className="flex flex-col text-justify items-center px-10 bg-card py-10 rounded-card gap-5 hover:bg-surface lg:flex-row">
             <img className="md:w-110 w-[90%] rounded-image flex  " src={image} alt="" />
             <div className="flex flex-col gap-4">
